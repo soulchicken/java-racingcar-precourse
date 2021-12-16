@@ -50,9 +50,13 @@ public class Print {
     }
 
     public static void PlayGame() {
-        for (Car car : carArrayList) {
-            car.RandomGoAhead();
-            car.PrintPosition();
+        System.out.println("실행결과");
+        for (int i = 0; i < numberOfGame; i++) {
+            for (Car car : carArrayList) {
+                car.RandomGoAhead();
+                car.PrintPosition();
+            }
+            System.out.println();
         }
     }
 }

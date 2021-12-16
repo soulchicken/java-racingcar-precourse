@@ -5,7 +5,7 @@ public class Except {
         try {
             throw new IllegalArgumentException();
         } catch (IllegalArgumentException e) {
-            System.out.println("유효하지 않은 이름입니다.");
+            System.out.println("[ERROR] 유효하지 않은 이름입니다.");
             Print.InputCarNames();
         }
     }
