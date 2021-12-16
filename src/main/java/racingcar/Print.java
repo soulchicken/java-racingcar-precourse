@@ -48,4 +48,11 @@ public class Print {
             InputNumberOfGame();
         }
     }
+
+    public static void PlayGame() {
+        for (Car car : carArrayList) {
+            car.RandomGoAhead();
+            car.PrintPosition();
+        }
+    }
 }

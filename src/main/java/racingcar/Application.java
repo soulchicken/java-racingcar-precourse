@@ -4,5 +4,6 @@ public class Application {
     public static void main(String[] args) {
         Print.InputCarNames();
         Print.InputNumberOfGame();
+        Print.PlayGame();
     }
 }
